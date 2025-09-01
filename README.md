@@ -2,6 +2,15 @@
 
 A professional frontend airline check-in management interface built with HTML, CSS, and JavaScript. This static web application provides a clean, responsive interface for airline staff to manage passenger check-ins and view flight information.
 
+## Preview
+
+<img width="1918" height="919" alt="image" src="https://github.com/user-attachments/assets/cfccb4bd-c52f-43b6-8d1a-7eba14166723" />
+<img width="1891" height="917" alt="image" src="https://github.com/user-attachments/assets/4622b902-25e2-4fd0-a813-7d197a69f3a9" />
+<img width="1915" height="915" alt="image" src="https://github.com/user-attachments/assets/f415da17-b8c2-4c69-8684-ada6d53b45c9" />
+
+
+*Professional airline check-in management interface with responsive design*
+
 ## Features
 
 - **Responsive Design** - Works seamlessly on desktop, laptop, tablet, and mobile devices
