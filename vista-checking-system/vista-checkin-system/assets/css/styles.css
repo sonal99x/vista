@@ -34,12 +34,12 @@ body {
     min-height: 100vh;
 }
 
-/* Content Wrapper */
-/* .content-wrapper {
+/* Content Wrapper - FIXED SPACING */
+.content-wrapper {
     flex: 1 0 auto;
-    padding-bottom: 90px; /* Add space for larger fixed footer */
-    /* margin: 0.2rem; */
-/* }  */
+    padding-bottom: 40px; /* Further reduced to minimize gap */
+    min-height: calc(100vh - 80px);
+}
 
 /* Header Styles - Fixed */
 .custom-header {
@@ -106,10 +106,10 @@ body {
     opacity: 0.8;
 }
 
-/* Triangle Background */
+/* Triangle Background - ADJUSTED POSITION */
 .triangle-background {
     position: fixed;
-    bottom: 25px; /* Position to slightly overlap with footer */
+    bottom: 40px; /* Adjusted to align with reduced spacing */
     left: -30px;
     z-index: 1;
     pointer-events: none;
@@ -122,16 +122,10 @@ body {
     filter: brightness(0.8) contrast(1.1) saturate(1.2) drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
 }
 
-.content-wrapper {
-    flex: 1 0 auto;
-    padding-bottom: 100px; /* Add space for fixed footer */
-    min-height: calc(100vh - 80px);
-}
-
 /* Main Content - FIXED LAYOUT */
 .main-content {
-    min-height: calc(100vh - 80px);
-    padding: 0.8rem 1rem 2rem;
+    min-height: calc(100vh - 120px); /* Adjusted for tighter spacing */
+    padding: 0.8rem 1rem 0.5rem; /* Reduced bottom padding further */
     position: relative;
     overflow: hidden;
 }
@@ -958,12 +952,12 @@ body {
     box-shadow: 0 4px 12px rgba(107, 114, 128, 0.3);
 }
 
-/* Footer */
+/* Footer - FIXED SPACING */
 .custom-footer {
     background: linear-gradient(90deg, #492400 0%, #3A4A70 100%);
     color: #FFFFFF;
     text-align: center;
-    padding: 0.8rem 0.1rem;
+    padding: 1rem 0.1rem;
     margin-top: auto;
     position: fixed;
     bottom: 0;
@@ -972,7 +966,7 @@ body {
     z-index: 1001;
     width: 100%;
     flex-shrink: 0;
-    min-height: 40px;
+    min-height: 60px; /* Increased from 40px for better proportion */
 }
 
 .footer-text {
@@ -1068,7 +1062,7 @@ body {
     
     .custom-footer {
         padding: 0.8rem 0.6rem;
-        min-height: 50px; /* Reduced height for mobile */
+        min-height: 60px; /* Consistent height for mobile */
     }
     
     .modal-info-row.three-col {
@@ -1106,4 +1100,3 @@ body {
         padding: 1.5rem;
     }
 }
-

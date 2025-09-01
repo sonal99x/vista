@@ -1,2 +1,0 @@
-# vista
-Vista_system
