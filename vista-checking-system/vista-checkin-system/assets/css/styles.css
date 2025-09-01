@@ -37,7 +37,7 @@ body {
 /* Content Wrapper - FIXED SPACING */
 .content-wrapper {
     flex: 1 0 auto;
-    padding-bottom: 40px; /* Further reduced to minimize gap */
+    padding-bottom: 20px; /* Further reduced for minimal gap */
     min-height: calc(100vh - 80px);
 }
 
@@ -73,7 +73,7 @@ body {
     color: var(--white-color);
     font-weight: 600;
     font-size: 1rem;
-    margin-right: -40px;
+    margin-right: -44px;
     margin-bottom: 15px;
     line-height: 1.1;
 }
@@ -109,7 +109,7 @@ body {
 /* Triangle Background - ADJUSTED POSITION */
 .triangle-background {
     position: fixed;
-    bottom: 40px; /* Adjusted to align with reduced spacing */
+    bottom: 20px; /* Adjusted to match reduced spacing */
     left: -30px;
     z-index: 1;
     pointer-events: none;
